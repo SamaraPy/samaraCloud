@@ -1,0 +1,79 @@
+baseurl = "/"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+publishDir = "docs"
+
+rssLimit  = 50  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Sami Adnan"
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Metadata mostly used in document's head
+  description = "Hassan Sami Adnan"
+  keywords = "digital health, healthcare, machine learning, artificial intelligence, science, informatics, development, programming"
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+  homeSubtitle = "Associate of The Royal Society for Public Health, UK • Founder of Kapani IT Systems and Solutions • Member of the European AI Alliance • Currently my research interests are Electronic Health Records and its regulatory aspects; along with Biobanking, Medical Ethics, Patient Data Privacy, and the application of artificial intelligence of big data in healthcare research/systems."
+
+[languages]
+  [languages.en]
+    title = "Hassan Sami Adnan"
+    subtitle = ""
+    keywords = ""
+    copyright = ""
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "sami.cloud"
+      logoHomeLink = "/"
+      logoColor = "#67a2c9"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+
+    # Social icons
+    [[params.social]]
+      name = "twitter"
+      url  = "https://twitter.com/hsami/"
+
+    [[params.social]]
+      name = "email"
+      url  = "mailto:sami@kapani.de"
+
+    [[params.social]]
+      name = "github"
+      url  = "https://github.com/sami5001/"
