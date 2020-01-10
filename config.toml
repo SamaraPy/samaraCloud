@@ -13,7 +13,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Sami Adnan"
+  name = "Samara Sharmeen"
 
 [taxonomies]
   tag      = "tags"
@@ -30,7 +30,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
   disableReadOtherPosts = false
 
   # Metadata mostly used in document's head
-  description = "Hassan Sami Adnan"
+  description = "Samara Sharmeen"
   keywords = "digital health, healthcare, machine learning, artificial intelligence, science, informatics, development, programming"
   images = [""]
 
@@ -40,20 +40,20 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
   # Default theme "light" or "dark"
   defaultTheme = "dark"
 
-  homeSubtitle = "Associate of The Royal Society for Public Health, UK • Founder of Kapani IT Systems and Solutions • Member of the European AI Alliance • Currently my research interests are Electronic Health Records and its regulatory aspects; along with Biobanking, Medical Ethics, Patient Data Privacy, and the application of artificial intelligence of big data in healthcare research/systems."
+  homeSubtitle = "Resident Trauma Surgeon • ALLPS Researcher • Python Newbie"
 
 [languages]
   [languages.en]
-    title = "Hassan Sami Adnan"
+    title = "Samara Sharmeen"
     subtitle = ""
     keywords = ""
     copyright = ""
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "sami.cloud"
+      logoText = "SamaraPy"
       logoHomeLink = "/"
-      logoColor = "#67a2c9"
+      logoColor = "#ff00f2"
     # or
     #
     # path = "/img/your-example-logo.svg"
@@ -68,7 +68,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
     # Social icons
     [[params.social]]
       name = "twitter"
-      url  = "https://twitter.com/hsami/"
+      url  = "https://twitter.com/ssharmeen/"
 
     [[params.social]]
       name = "email"
@@ -76,4 +76,4 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
 
     [[params.social]]
       name = "github"
-      url  = "https://github.com/sami5001/"
+      url  = "https://github.com/SamaraPy/"
