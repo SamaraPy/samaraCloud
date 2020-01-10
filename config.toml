@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://samarapy.github.io/samaraCloud/"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 publishDir = "docs"
